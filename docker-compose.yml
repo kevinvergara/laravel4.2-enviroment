@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  web:
+    build: .
+    container_name: web_laravel4_2
+    ports:
+      - 8000:80
+    volumes:
+      - .:/opt/data
