@@ -2,7 +2,7 @@ version: "3"
 
 services:
   web:
-    build: .
+    image: kevinvergara92/laravel4.2-enviroment:latest
     container_name: web_laravel4_2
     ports:
       - 8000:80
